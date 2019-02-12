@@ -15,7 +15,7 @@ let getMyGrade = function(currentMarks = 0, totalMarks = 0) {
         myGrade = 'F'
     }
 
-    return `Your grade is ${myGrade} ad percentage is ${myPercent}`
+    return `Your grade is ${myGrade} and percentage is ${myPercent}`
 }
 
 let yourResult = getMyGrade(450, 500)
