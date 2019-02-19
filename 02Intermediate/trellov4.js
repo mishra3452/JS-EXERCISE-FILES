@@ -31,7 +31,7 @@ const newToDos = [{
 // let printMe = findTodo(newToDos, 'Go to gym')
 // console.log(printMe)
 
-
+//Method 2
 const findTodo = function(findTodos, title){
     const titleReturned = findTodos.find(function(todo, index){
         return todo.title.toLowerCase() === title.toLowerCase()
